@@ -1,0 +1,40 @@
+import { type Task } from "@/lib/types";
+
+export const mockTasks: Task[] = [
+  {
+    id: "1",
+    title: "Follow up with wedding lead",
+    description: "Call to discuss package options and availability",
+    priority: "high",
+    category: "Sales",
+    assignedTo: "John Doe",
+    dueDate: new Date("2024-03-20"),
+    status: "pending",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: "2",
+    title: "Update equipment inventory",
+    description: "Check and document all equipment status",
+    priority: "medium",
+    category: "Maintenance",
+    assignedTo: "Jane Smith",
+    dueDate: new Date("2024-03-22"),
+    status: "in_progress",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  {
+    id: "3",
+    title: "Send contract to client",
+    description: "Prepare and send contract for corporate event",
+    priority: "high",
+    category: "Sales",
+    assignedTo: "John Doe",
+    dueDate: new Date("2024-03-21"),
+    status: "pending",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+];
